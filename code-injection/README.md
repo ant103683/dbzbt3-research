@@ -120,7 +120,9 @@ The actual code itself is pretty simple: get current map ID, compare it to two o
 In order to add more map checks to the code, I found three unused methods next to each other and zeroed out their instructions to make some space.
 I also copied the remaining 12 instructions of the method above, zeroed them out and moved them to that empty space.
 
-One question remains: how does one point one instruction set to another? The answer: writing a new jump instruction, by debugging... or memorizing.
+One question remains: how does one point one instruction set to another? The answer: writing a new jump instruction, by debugging... or memorizing the exact byte sequence.
+
+Better yet, why not "assemble the instruction yourself" by learning more about [https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats](MIPS Assembly Instruction Formats)?
 
 Splitting up the code earlier assured that only one jump instruction is used, rather than several, but multiple jumps can still be a valid approach.
 
