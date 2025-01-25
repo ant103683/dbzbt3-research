@@ -122,7 +122,7 @@ I also copied the remaining 12 instructions of the method above, zeroed them out
 
 One question remains: how does one point one instruction set to another? The answer: writing a new jump instruction, by debugging... or memorizing the exact byte sequence.
 
-Better yet, why not "assemble the instruction yourself" by learning more about [https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats](MIPS Assembly Instruction Formats)?
+Better yet, why not "assemble the instruction yourself" by learning more about [MIPS Assembly Instruction Formats](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats)?
 
 Splitting up the code earlier assured that only one jump instruction is used, rather than several, but multiple jumps can still be a valid approach.
 
@@ -146,3 +146,5 @@ When adding more map checks, it is important to assure every branch after the ch
 5. Then, enter the instruction you want to compile.
 6. EXTREMELY IMPORTANT: make sure to use registers that are NOT already occupied by the same function/method or another concurrent one.
 7. After that, write down the bytes obtained from that new instruction.
+8. Changes made to the ELF will also change the CRC, which is a checksum PCSX2 uses for savestates and proper game recognition.
+   Therefore, it is recommended to [use this tool](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats) to fix the CRC.
