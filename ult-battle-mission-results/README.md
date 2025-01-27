@@ -1,14 +1,19 @@
 # Ultimate Battle Mission Results
 ## Introduction
 When completing any mission in Sim Dragon, Mission 100, Survival or Disc Fusion, 
-the player is given points, based on fulfilled conditions/criteria, which are
-then used to determine their rank for that mission.
+the player is given points, based on **fulfilled conditions/criteria**, which are
+then used to determine their **rank** for that mission.
 
-Interestingly enough, Ultimate Battle and Dragon History share the same condition system,
+Interestingly enough, **Ultimate Battle** and **Dragon History** share the same condition system,
 except in the latter, it is only used to trigger new scenes, voice lines or other changes.
 
 As a result, the game does not care if the player has done e.g. multiple Blast 2's.
-Each condition is its own bit, therefore quantity is the least of the game's concerns.
+**Each condition is its own bit**, therefore quantity is the least of the game's concerns.
+
+For a better understanding, [click here](https://github.com/ViveTheModder/dbzbt3-research/blob/main/ult-battle-mission-results/csv/result-ids.csv) to see each result followed by their ID in hex.
+
+The result names are abbreviated and taken from [dbz3_sc (BT3 Ghidra Decomp)](https://github.com/HiroTex/dbz3_sc/blob/main/ghidra/slps_258.15.gzf).
+
 ## Main Criteria
 Aside from the conditions above, the game also scores the following:
 * Health Percentage;
@@ -20,12 +25,12 @@ As for how they are converted to points:
 * ``pts += maxHits * 4000``;
 * ``pts += maxDmg * 5``;
 
-In Survival, there is an additional condition: the number of opponents defeated.
+In Survival, there is an additional condition: **the number of opponents defeated**.
 * ``pts += oppsDefeated * 2000``;
 
 NOTE: Before assigning the points, the ``maxDmg`` variable is rounded to the nearest multiple of 1000.
 ## Condition System
-There is a total of 48 conditions used for Ultimate Battle. However, 14 of them go unused:
+There is a total of 48 conditions used for Ultimate Battle. However, 14 of them go **unused**:
 * Underwater Win;
 * Player Hit More Than Opponent;
 * Aerial Rush (referring to Air Combos?);
@@ -40,7 +45,8 @@ There is a total of 48 conditions used for Ultimate Battle. However, 14 of them 
 * Throw Attacks Only;
 * Successful Guards;
 * Counter Opponent.
-As for the rest, click here to check their names, comments, and points acquired from each one.
+
+As for the rest, [click here](https://github.com/ViveTheModder/dbzbt3-research/blob/main/ult-battle-mission-results/csv/result-list.csv) to check their names, comments, and points acquired from each one.
 ## Ranking System
 Pretty straightforward, although it changes depending on the selected game mode.
 ### Normal Rankings
