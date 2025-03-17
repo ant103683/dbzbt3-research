@@ -5,7 +5,7 @@ DBZ Budokai Tenkaichi 3, like any other game for the PS2, PS3 or Wii at the time
 
 Regardless of version, a DBZBT3 ISO comes with the following AFS files:
 * ``X``ZS3``YY``0.AFS -> Contains files for the language select screen, used for the PAL (European) version of the game.
-* `X``ZS3``YY``1.AFS -> Contains almost all the essentials (resident files, menu files, character files and so on).
+* ``X``ZS3``YY``1.AFS -> Contains almost all the essentials (resident files, menu files, character files and so on).
 * ``X``ZS3``YY``2.AFS -> Contains only ADX files (voice lines, jingles, music, a few sound effects).
 
 To understand these file names better, just know that X and YY are meant to be replaced with other letters.
@@ -61,21 +61,21 @@ If an **AFL (ADX File List)** has been inserted beforehand, then the **new file 
 ![afs-5](https://github.com/ViveTheModder/dbzbt3-research/blob/main/file-types/afs/img/afs-5.png)
 
 As for the metadata:
-* Red -> File Name (max: 30-31 characters)
-* Orange -> Date Modified: Year;
-* Green -> Date Modified: Month;
-* Blue -> Date Modified: Day;
-* Purple -> Date Modified: Hour;
-* Pink -> Date Modified: Minute;
-* Yellow -> Date Modified: Seconds;
-* Brown -> File Size.
+* Red -> **File Name** (max: 30-31 characters)
+* Orange -> Date Modified: **Year**;
+* Green -> Date Modified: **Month**;
+* Blue -> Date Modified: **Day**;
+* Purple -> Date Modified: **Hour**;
+* Pink -> Date Modified: **Minute**;
+* Yellow -> Date Modified: **Seconds**;
+* Brown -> **File Size**.
 
 If the addresses, file sizes and the remaining metadata is removed from an AFS, that gives us a **VOL**.
 
-Out of the 3 DBZ Budokai Tenkaichi games, only one is used for the first game, containing vital information.
+Out of the 3 DBZ Budokai Tenkaichi games, **only one is used for the first game**, containing vital information.
 
 This means of converting AFS to VOL files, mainly to prevent data theft, was [used in the fanmade DBZBT4 mod](https://github.com/ViveTheModder/bt4-research).
 
-Reversing this conversion is impossible without the once-removed information being stored or generated elsewhere (whether it's an **ELF** or some other **binary file**).
+**Reversing this conversion is impossible** without the once-removed information being stored or generated elsewhere (whether it's an **ELF** or some other **binary file**).
 
 In the case of DBZBT1, the game relies on information stored in the **ELF (Executable & Linkable Format)**.
