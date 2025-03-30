@@ -8,6 +8,9 @@ In case your ISO has other changes made to its source code (in the ELF, dbzp.bin
 
 Otherwise, ignore the pnach file and replace ``dbzp.bin`` alongside the ELF (SLUS/SLPS) with the modified files.
 
+## MOD Demonstration
+https://github.com/user-attachments/assets/ee369767-05e2-4fe5-861b-8b6672c7f437
+
 ## How to Install PNACH Files (PS2 Cheat Codes)
 1. Copy the pnach file.
 2. Go to your PCSX2 version's folder, and check the ``cheats`` folder.
