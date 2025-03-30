@@ -1,0 +1,23 @@
+//View Damaged Costumes
+patch=1,EE,203588F0,extended,30820A00
+patch=1,EE,20358938,extended,0C09AFF3
+patch=1,EE,2026BFCC,extended,3C020033
+patch=1,EE,2026BFD0,extended,8C423988 
+patch=1,EE,2026BFD4,extended,30430800 
+patch=1,EE,2026BFD8,extended,34080001 
+patch=1,EE,2026BFDC,extended,0103300B
+patch=1,EE,2026BFE0,extended,30434000 
+patch=1,EE,2026BFE4,extended,34C80010 
+patch=1,EE,2026BFE8,extended,0103300B 
+patch=1,EE,2026BFEC,extended,30438000
+patch=1,EE,2026BFF0,extended,34C80004 
+patch=1,EE,2026BFF4,extended,0103300B
+patch=1,EE,2026BFF8,extended,3C090001 
+patch=1,EE,2026BFFC,extended,00491824
+patch=1,EE,2026C000,extended,34C80002
+patch=1,EE,2026C004,extended,0103300B 
+patch=1,EE,2026C008,extended,3C090002
+patch=1,EE,2026C00C,extended,00491824
+patch=1,EE,2026C010,extended,34C80008
+patch=1,EE,2026C014,extended,08097670
+patch=1,EE,2026C018,extended,0103300B

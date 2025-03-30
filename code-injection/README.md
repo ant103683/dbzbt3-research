@@ -92,10 +92,12 @@ The same logic can be applied to finding the function/method directly in the ELF
 
 ![pcsx2](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code-injection/img/pcsx2.png)
 
-# Code Injection Example
+# Code Injection Examples
 ## Try It Out!
-1. [Added Ring-Out to 1 map (Mountain Road - Evening)](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code-injection/mod/SLUS_216%20(v1).78)
-2. [Added Ring-Out to 4 maps (all Desert maps, Planet - Night, and Mountain Road - Evening)](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code-injection/mod/SLUS_216%20(v2).78)
+1. [Added Ring-Out to 1 map (Mountain Road - Evening)](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code-injection/mods/add-ringout-to-maps/SLUS_216%20(v1).78)
+2. [Added Ring-Out to 4 maps (all Desert maps, Planet - Night, and Mountain Road - Evening)](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code-injection/mods/add-ringout-to-maps/SLUS_216%20(v2).78)
+3. [Added ability to view damaged costumes in Character Reference; imported from DBZBT4](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code-injection/mods/view-damaged-costumes)
+
 ## Demonstration
 ![example-1](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code-injection/img/example-1.png)
 
